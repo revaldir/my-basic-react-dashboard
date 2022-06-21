@@ -46,10 +46,10 @@ const App = () => {
             </div>
 
             <div>
-              <Routes>
-                {/* Theme Settings */}
-                {themeSettings && <ThemeSettings />}
+              {/* Theme Settings */}
+              {themeSettings && <ThemeSettings />}
 
+              <Routes>
                 {/* Dashboard */}
                 <Route path="/" element={<Ecommerce />} />
                 <Route path="/ecommerce" element={<Ecommerce />} />
